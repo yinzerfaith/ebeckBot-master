@@ -28,9 +28,9 @@ var niceQuotes = [
 
 var generateInsult = function(name) {
   console.log('name is ' + name)
-  if ((name.toLowerCase().indexOf('donald') > -1) ||
-      (name.toLowerCase().indexOf('trump') > -1) ||
-      (name.toLowerCase().indexOf('ivanka') > -1) ) {
+  if ((name.toLowerCase().indexOf('grex') > -1) ||
+      (name.toLowerCase().indexOf('grech') > -1) ||
+      (name.toLowerCase().indexOf('boardman') > -1) ) {
     return niceQuotes[getRandomInt(niceQuotes.length)];
   }
 
